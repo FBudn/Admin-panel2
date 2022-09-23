@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pickbazar | E-commerce</title>
+
+    <!-- Tailwind and styles-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="main.css" />
+
+    <!-- eye icon password-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body class="m-0 p-0">
+    <div class="flex flex-col w-full max-w-screen-2xl">
+        <!-- main-container-for-max-width-->
+
+        <!------------------------------------------------------------------------- SECTION 1 LOG-->
+        <!-- Section 1 container -->
+        <div class="flex justify-center items-center w-full  h-screen">
+
+            <!-- Content -->
+            <div class="flex justify-center content-center bg-yellow-400 flex-col max-w-[420px] h-3/4  p-8 gap-2">
+
+                <div class="flex justify-center content-center">
+                    <img class="w-28"
+                        src="https://pickbazar-react-admin.vercel.app/_next/image?url=https%3A%2F%2Fpickbazarlaravel.s3.ap-southeast-1.amazonaws.com%2F860%2FPickBazar.png&w=1920&q=75"
+                        alt="logo">
+                </div>
+                <div class="flex justify-center content-center">
+                    <h3 class="text-center text-base italic text-gray-400">Login to admin
+                    </h3>
+                </div>
+
+
+                <form>
+                    <div class="flex flex-col w-4/5">
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" placeholder="admin@demo.com">
+                    </div>
+                    <div class="flex flex-col w-4/5">
+                        <div class="flex justify-between content-center">
+                            <div>Password</div>
+                            <p>Forgot password?
+                            </p>
+                        </div>
+                        <input type="password" id="password" value="FakePSW">
+                        <div class="relative">
+                            <button for="password" class="absolute right-0 -mt-6">Icon</button>
+                        </div>
+                    </div>
+                    <button>Login</button>
+                    <div class="flex justify-center content-center gap-2">
+
+                        <hr class="hr-left flex justify-center content-center mt-3">
+
+                        <div class="w-1/8 flex justify-center content-center "> or </div>
+
+                        <hr class="hr-right flex justify-center content-center mt-3">
+
+                    </div>
+                    <div class="text-sm sm:text-base text-body text-center">Don't have any account? <a
+                            class="ms-1 underline text-accent font-semibold transition-colors duration-200 focus:outline-none hover:text-accent-hover focus:text-accent-700 hover:no-underline focus:no-underline"
+                            href="#">Register as Shop Owner</a></div>
+                </form>
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

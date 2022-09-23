@@ -1,0 +1,13 @@
+:root {
+    background-color: rgba(var(--color-gray-100), var(--tw-bg-opacity));
+}
+
+.hr-left {
+    width: 60%;
+    border: 0.1px solid hsl(0, 4%, 90%);
+}
+
+.hr-right {
+    width: 20%;
+    border: 0.1px solid hsl(0, 4%, 90%);
+}
