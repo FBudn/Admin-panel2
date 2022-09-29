@@ -1,9 +1,5 @@
-:root {
-    background-color: rgba(var(--color-gray-100), var(--tw-bg-opacity));
-}
-
 .hr-left {
-    width: 60%;
+    width: 50%;
     border: 0.1px solid hsl(0, 4%, 90%);
 }
 

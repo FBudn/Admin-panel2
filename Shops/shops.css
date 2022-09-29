@@ -1,0 +1,35 @@
+/* Custom and JS classes */
+
+.gray-background-on-click {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 45%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.352);
+    z-index: 21;
+    overflow-y: hidden;
+}
+
+.active {
+    display: flex;
+    position: fixed;
+    width: 55%;
+    z-index: 19;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.show-flex {
+    display: flex;
+    margin-left: 190px;
+}
+
+/* Smallest screens classes */
+
+@media screen and (max-width: 639px) {}
